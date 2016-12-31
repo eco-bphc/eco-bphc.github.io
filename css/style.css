@@ -5,6 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Miso';
+  src: url("../fonts/miso/miso-regular.ttf") format('truetype'),
+       url("../fonts/miso/miso-regular.otf") format('opentype');
+}
+@font-face {
+  font-family: 'Miso Light';
+  src: url("../fonts/miso/miso-light.ttf") format('truetype'),
+       url("../fonts/miso/miso-light.otf") format('opentype');
+}
+@font-face {
+  font-family: 'AIMH';
+  src: url("../fonts/Always In My Heart.ttf") format('truetype');
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -39,7 +53,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Miso Light", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -82,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header #navbar li a {
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Miso Light", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
   font-size: 16px;
@@ -183,11 +197,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   display: block;
   font-size: 24px;
-  font-weight: 700;
   padding-left: 0;
   color: #fff;
-  text-transform: uppercase;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "AIMH", Arial, sans-serif;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .navbar-brand {
@@ -277,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 img {
@@ -365,7 +377,7 @@ img {
   -ms-border-radius: 4px;
   border-radius: 4px;
   margin-right: 10px;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Miso Light", Arial, sans-serif;
   -webkit-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
   -ms-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
@@ -500,7 +512,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  font-family: "Lato", Arial, sans-serif !important;
+  font-family: "Miso Light", Arial, sans-serif !important;
 }
 #fh5co-testimony .wrap-testimony .testimony-slide span a.twitter {
   color: #F1A124;
@@ -596,7 +608,7 @@ img {
   padding: 18px 60px;
   background: #fff;
   color: #F1A124;
-  font-family: "Lato", Arial, sans-serif !important;
+  font-family: "Miso Light", Arial, sans-serif !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -990,7 +1002,7 @@ img {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-family: "Lato", Arial, sans-serif !important;
+  font-family: "Miso Light", Arial, sans-serif !important;
 }
 
 .fh5co-nav-toggle {
