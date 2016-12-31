@@ -196,9 +196,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 24px;
+  font-size: 2.5em;
   padding-left: 0;
-  color: #fff;
+  color: #f7b620;
   font-family: "AIMH", Arial, sans-serif;
 }
 @media screen and (max-width: 992px) {
@@ -879,7 +879,7 @@ img {
   position: relative;
   padding-bottom: 20px;
 }
-#fh5co-footer .section-title:after {
+/*#fh5co-footer .section-title:after {
   position: absolute;
   content: '';
   bottom: 0;
@@ -888,7 +888,7 @@ img {
   width: 35px;
   height: 2px;
   background: #F1A124;
-}
+}*/
 #fh5co-footer .copy-right {
   position: relative;
   padding-top: 20px;
