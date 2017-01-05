@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .lead {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 img {
@@ -350,7 +350,7 @@ img {
   text-align: center;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 38px;
+  font-size: 48px;
   text-transform: uppercase;
   color: white;
   margin: 0 0 20px 0;
@@ -1280,5 +1280,9 @@ img {
   background: transparent;
   border: 2px solid #F1A124;
 }
-
+.kenny{
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
 /*# sourceMappingURL=style.css.map */
