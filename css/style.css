@@ -72,7 +72,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #F1A124;
 }
-
+@media only screen and (max-width: 992px) {
+  #sidey{
+    display: none !important;;
+  }
+}
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -754,6 +758,7 @@ img {
 #fh5co-team .team-box .user {
   position: relative;
   margin-bottom: 20px;
+  display: inline-block;
 }
 #fh5co-team .team-box .user img {
   width: 147px;
