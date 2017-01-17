@@ -1291,4 +1291,10 @@ img {
   height: auto;
   display:block;
 }
+@media screen and (max-width: 768px) {
+  .kenny {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
