@@ -70,7 +70,8 @@
 			navText : ["<i class='icon icon-angle-left'></i>","<i class='icon icon-angle-right'></i>"],
 			animateIn: 'zoomIn',
 			animateOut: 'zoomOutDown',
-			autoHeight: true
+			autoHeight: true,
+			autoplay : true
 		});
 	};
 
