@@ -1371,4 +1371,40 @@ img {
 .table td:nth-child(4),
 .table th:nth-child(4) { display: none; }
 }
+/*Speaker Carousel*/
+.owl-carousel .owl-nav [class*=owl-] {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 11px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0;
+  text-align: center;
+}
+
+.owl-carousel .owl-nav [class*=owl-]:hover {
+  background: #3e3f47;
+  color: #F1A124;
+}
+.owl-carousel .owl-controls .owl-nav [class*=owl-] {
+  background: none;
+  color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 50%;
+  height: 30px;
+  margin: auto !important;
+}
+
+.owl-carousel .owl-prev {
+  left: 10px;
+}
+
+.owl-carousel .owl-next {
+  right: 10px;
+}
 /*# sourceMappingURL=style.css.map */

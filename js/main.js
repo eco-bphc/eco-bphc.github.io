@@ -43,7 +43,7 @@
 	};
 
 
-	var testimonialCarousel = function(){
+	var scheduleCarousel = function(){
 		var owl = $('.owl-carousel-fullwidth');
 		owl.owlCarousel({
 			items: 1,
@@ -53,6 +53,23 @@
 			nav: false,
 			dots: true,
 			smartSpeed: 500,
+			autoHeight: true
+		});
+	};
+	var speakerCarousel = function(){
+		var owl = $('.owl-carousel-speakers');
+		owl.owlCarousel({
+			items: 1,
+			loop: true,
+			margin: 0,
+			responsiveClass: true,
+			lazyLoad: true,
+			nav: true,
+			dots: true,
+			smartSpeed: 500,
+			navText : ["<i class='icon icon-angle-left'></i>","<i class='icon icon-angle-right'></i>"],
+			animateIn: 'zoomIn',
+			animateOut: 'zoomOutDown',
 			autoHeight: true
 		});
 	};
@@ -449,8 +466,8 @@
 		clickMenu();
 		windowScroll();
 		navigationSection();
-		testimonialCarousel();
-		
+		speakerCarousel();
+		scheduleCarousel();		
 		// Animations
 		homeAnimate();
 		exploreAnimate();
