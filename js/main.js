@@ -68,8 +68,8 @@
 			dots: true,
 			smartSpeed: 500,
 			navText : ["<i class='icon icon-angle-left'></i>","<i class='icon icon-angle-right'></i>"],
-			animateIn: 'zoomIn',
-			animateOut: 'zoomOutDown',
+			animateIn: 'slideInLeft',
+			animateOut: 'slideOutRight',
 			autoHeight: true,
 			autoplay : true
 		});
